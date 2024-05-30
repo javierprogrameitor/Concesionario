@@ -43,7 +43,7 @@
     <title>Detalle-3</title>
 </head>
 
-<body class="bg-custom-green m-0">
+<body class="bg-custom-green">
     <div>
         <hr class="w-full border-t-1 border-white">
     </div>
@@ -52,14 +52,14 @@
             <img src="../IMG/logoConcesionario.png" class="h-20 w-20">
         </div>
         <div class="text-center">
-        </div> <span class="text-xl text-shadow-white text-green-800  text-3xl md:text-5xl font-bobby-jones">RENEW CAR
+        </div> <span class="text-xl text-shadow-white text-green-800 text-3xl md:text-5xl font-bobby-jones">RENEW CAR
         </span>
         </div>
     </nav>
     <div>
         <hr class="w-full border-t-1 border-white">
     </div>
-    <div class="flex flex-wrap justify-around m-1">
+    <div class="flex flex-wrap justify-around">
         <div class="text-sm breadcrumbs">
             <ul>
                 <form action="Catalogo.html" method="POST" class="m-2">
@@ -82,63 +82,66 @@
         <hr class="w-full border-t-1 border-white">
     </div>
 
-    <div class="hero relative ">
-        <figure class="relative w-11/12 h-full">
+    <div class="hero relative">
+        <figure class="relative w-full h-full">
             <img src="../IMG/card3.jpg" class="w-full h-full object-fit">
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
         </figure>
-        <div class="flex justify-center absolute inset-0 text-center text-neutral-content mt-20" id="text-container">
-            <div class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto">
+        <div class="flex justify-center items-center absolute inset-0 text-center text-neutral-content"
+            id="text-container">
+            <div class="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4">
                 <h1 class="text-5xl font-bobby-jones">BENTLEY</h1>
-                <p class="font-black">Deportivo que ha mantenido los elementos esenciales. Bentley en el mundo del
+                <p class="font-black">Deportivo que ha mantenido los elementos esenciales. Referente en el mundo del
                     automovilismo.</p>
                 <button class="btn glass font-black text-lg text-white border-solid" id="start">Comenzar</button>
             </div>
         </div>
         <!-- Nuevo div para la nueva imagen y el texto -->
-        <div id="new-image-container" class="flex flex-col md:flex-row justify-center items-center">
-
-            <div class="md:w-1/2 flex flex-col items-center justify-center ml-20 mr-10">
-                <p class="text-5xl text-shadow-white text-green-800 font-bobby-jones m-2">BENTLEY</p>
-                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2">Precio Recomendado: </p>
-                <p class="text-6xl text-shadow-white text-green-800 font-black m-2">75.500€</p>
-                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2">BENTLEY
+        <div id="new-image-container" class="flex flex-col md:flex-row justify-center items-center ">
+            <div class="md:w-1/2 flex flex-col items-center justify-center">
+                <p class="text-5xl text-shadow-white text-green-800 font-bobby-jones m-2 text-center">BENTLEY
+                </p>
+                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2 text-center">Precio
+                    Recomendado:</p>
+                <p class="text-6xl text-shadow-white text-green-800 font-black m-2 text-center">75.500€</p>
+                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2 text-center">BENTLEY
                     generalmente utiliza motores bóxer de seis cilindros.</p>
-                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2"> Los modelos básicos como el
-                    Carrera y el Carrera S tienen un motor de 3.0 litros con doble
+                <p class="text-xl md:text-2xl text-shadow-white text-green-800 font-black m-2 text-center">Los modelos
+                    básicos como el
+                    BENTLEY y el Carrera S tienen un motor de 3.0 litros con doble
                     turbocompresor.</p>
-                <img src="../IMG/card3.jpg" id="new-image" class="w-full md:w-1/2 h-auto">
-                <div class="flex flex-row items-center justify-center carousel carousel-end rounded-box">
-                    <div class="carousel-item w-16 sm:w-8 md:w-20 lg:w-40 h-16 sm:h-8 md:h-20 lg:h-40">
-                        <img src="../IMGCRS/carousel1.jpg" class="w-full h-full object-fit" />
-                    </div>
-                    <div class="carousel-item w-16 sm:w-8 md:w-20 lg:w-40 h-16 sm:h-8 md:h-20 lg:h-40">
-                        <img src="../IMGCRS/carousel2.jpg" class="w-full h-full object-fit" />
-                    </div>
-                    <div class="carousel-item w-16 sm:w-8 md:w-20 lg:w-40 h-16 sm:h-8 md:h-20 lg:h-40">
-                        <img src="../IMGCRS/carousel3.jpg" class="w-full h-full object-fit" />
-                    </div>
-                    <div class="carousel-item w-16 sm:w-8 md:w-20 lg:w-40 h-16 sm:h-8 md:h-20 lg:h-40">
-                        <img src="../IMGCRS/carousel4.jpg" class="w-full h-full object-fit" />
-                    </div>
-                    <div class="carousel-item w-16 sm:w-8 md:w-20 lg:w-40 h-16 sm:h-8 md:h-20 lg:h-40">
-                        <img src="../IMGCRS/carousel5.jpg" class="w-full h-full object-fit" />
+                <!-- Contenedor de imágenes -->
+                <div class="md:w-1/2 flex flex-col items-center justify-center m-2">
+                    <img src="../IMG/card3.jpg" id="new-image" class="w-full h-80 object-fit">
+                    <div class="carousel carousel-end rounded-box w-full flex justify-center mt-1">
+                        <div class="carousel-item w-20 sm:w-20 md:w-30 lg:w-40 h-16 sm:h-20 md:h-30 lg:h-40 ">
+                            <img src="../IMGCRS/carousel1.jpg" class="w-full h-full object-fit" />
+                        </div>
+                        <div class="carousel-item w-20 sm:w-20 md:w-30 lg:w-40 h-16 sm:h-20 md:h-30 lg:h-40 ">
+                            <img src="../IMGCRS/carousel2.jpg" class="w-full h-full object-fit" />
+                        </div>
+                        <div class="carousel-item w-20 sm:w-20 md:w-30 lg:w-40 h-16 sm:h-20 md:h-30 lg:h-40 ">
+                            <img src="../IMGCRS/carousel3.jpg" class="w-full h-full object-fit" />
+                        </div>
+                        <div class="carousel-item w-20 sm:w-20 md:w-30 lg:w-40 h-16 sm:h-20 md:h-30 lg:h-40 ">
+                            <img src="../IMGCRS/carousel4.jpg" class="w-full h-full object-fit" />
+                        </div>
                     </div>
                 </div>
+                
             </div>
 
-            <div class="md:w-1/2 flex flex-col items-center justify-center ml-10 mr-20">
 
-                <p class="text-shadow-white text-green-800  text-xl md:text-2xl font-black m-2">
+            <div class="md:w-1/2 flex flex-col items-center justify-center mx-10 mt-4 md:mt-0">
+                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="h-6 w-6 mr-2 inline-block">
                         <path
                             d="M16.881 4.345A23.112 23.112 0 0 1 8.25 6H7.5a5.25 5.25 0 0 0-.88 10.427 21.593 21.593 0 0 0 1.378 3.94c.464 1.004 1.674 1.32 2.582.796l.657-.379c.88-.508 1.165-1.593.772-2.468a17.116 17.116 0 0 1-.628-1.607c1.918.258 3.76.75 5.5 1.446A21.727 21.727 0 0 0 18 11.25c0-2.414-.393-4.735-1.119-6.905ZM18.26 3.74a23.22 23.22 0 0 1 1.24 7.51 23.22 23.22 0 0 1-1.41 7.992.75.75 0 1 0 1.409.516 24.555 24.555 0 0 0 1.415-6.43 2.992 2.992 0 0 0 .836-2.078c0-.807-.319-1.54-.836-2.078a24.65 24.65 0 0 0-1.415-6.43.75.75 0 1 0-1.409.516c.059.16.116.321.17.483Z" />
                     </svg>
-                    Los modelos base como el
-                   BENTLEY tienen una potencia alrededor de 379-443 caballos de fuerza
+                    Los modelos base como el Carrera tienen una potencia alrededor de 379-443 caballos de fuerza
                 </p>
-                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2">
+                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="h-6 w-6 mr-2 inline-block">
                         <path fill-rule="evenodd"
@@ -147,45 +150,40 @@
                         <path
                             d="M5.26 17.242a.75.75 0 1 0-.897-1.203 5.243 5.243 0 0 0-2.05 5.022.75.75 0 0 0 .625.627 5.243 5.243 0 0 0 5.022-2.051.75.75 0 1 0-1.202-.897 3.744 3.744 0 0 1-3.008 1.51c0-1.23.592-2.323 1.51-3.008Z" />
                     </svg>
-                    Aceleración de 0 a 60 mph
-                    en menos de 3 segundos en el Turbo S
+                    Aceleración de 0 a 60 mph en menos de 3 segundos en el Turbo S
                 </p>
-                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2">
-
+                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="h-6 w-6 mr-2 inline-block">
                         <path fill-rule="evenodd"
                             d="M12 2.25a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM6.166 5.106a.75.75 0 0 1 0 1.06 8.25 8.25 0 1 0 11.668 0 .75.75 0 1 1 1.06-1.06c3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788a.75.75 0 0 1 1.06 0Z"
                             clip-rule="evenodd" />
                     </svg>
-
-                    Los BENTLEY Turbo y Turbo S
-                    pueden generar entre 572 y 640 caballos de fuerza.
+                    Los modelos NISSAN-Z y Turbo S pueden generar entre 572 y 640 caballos de fuerza.
                 </p>
-                <p class="text-shadow-white text-green-800  text-xl md:text-2xl font-black m-2">
+                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="h-6 w-6 mr-2 inline-block">
                         <path
                             d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
                     </svg>
-
-                    Utiliza una suspensión
-                    avanzada con un sistema de amortiguadores adaptativos (PASM)
+                    Utiliza una suspensión avanzada con un sistema de amortiguadores adaptativos (PASM)
                 </p>
-                <p class="text-shadow-white text-green-800  text-xl md:text-2xl font-black m-2">
+                <p class="text-shadow-white text-green-800 text-xl md:text-2xl font-black m-2 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="h-6 w-6 mr-2 inline-block">
-                        <path fillRule="evenodd"
+                        <path fill-rule="evenodd"
                             d="M15.75 1.5a6.75 6.75 0 0 0-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 0 0-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 0 0 .75-.75v-1.5h1.5A.75.75 0 0 0 9 19.5V18h1.5a.75.75 0 0 0 .53-.22l2.658-2.658c.19-.189.517-.288.906-.22A6.75 6.75 0 1 0 15.75 1.5Zm0 3a.75.75 0 0 0 0 1.5A2.25 2.25 0 0 1 18 8.25a.75.75 0 0 0 1.5 0 3.75 3.75 0 0 0-3.75-3.75Z"
-                            clipRule="evenodd" />
+                            clip-rule="evenodd" />
                     </svg>
-
-                    La dureza para adaptarse a
-                    las condiciones del camino y el estilo de conducción.
+                    La dureza para adaptarse a las condiciones del camino y el estilo de conducción.
                 </p>
             </div>
         </div>
     </div>
+
+
+
     <div>
         <hr class="w-full border-t-1 border-white">
     </div>
