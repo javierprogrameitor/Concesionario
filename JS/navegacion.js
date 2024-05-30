@@ -40,6 +40,10 @@ const botonesExtras3 = document.getElementById("extras3");
 const botonesExtrasCatalogo = document.getElementById("extrasCatalogo");
 const botonesExtrasIncio = document.getElementById("extrasInicio");
 //----------
+const botonLogo = document.getElementById("logoIndex");
+
+
+
 // Funciones de manejo de eventos
 function irAPrincipal(event) {
   event.preventDefault();
@@ -219,6 +223,10 @@ if (botonesExtrasCatalogo) {
 if (botonesExtrasIncio) {
   botonesExtrasIncio.addEventListener("click", irAIndex);
 }
+if (botonLogo) {
+  botonLogo.addEventListener("click", irAIndex);
+}
+
 
 /*Navegaciń del detalle*/
 document.getElementById("start").addEventListener("click", function () {
